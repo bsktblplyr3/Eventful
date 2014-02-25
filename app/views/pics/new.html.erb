@@ -1,0 +1,16 @@
+<div class ="ice-box span6 offset3 text-center">
+	<h1 class="awesome sauce">
+	Share your Events!
+	<h1>
+<br/>
+
+	<%= simple_form_for @pic do |f| %>
+		<%= f.input :title, label: 'Enter Your Title' , placeholder: 'Wine Bike Tour' %>
+		<%= f.input :message, label: 'Where is this happening??', placeholder: 'Upstate New York' %>
+		<%= f.input :who, label: 'Who is this?', placeholder: 'e.g. Jay-Z' %>
+		<br/>
+		<%= f.input :image, label: 'Upload Your Photos'	 %>
+		<br/>
+		<%= f.submit "Save", :class => 'btn btn-success btn-large' %>
+	<%end%>
+</div>

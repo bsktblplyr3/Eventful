@@ -1,0 +1,136 @@
+// Place all the styles related to the EventfulController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+.ice-box {
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+	color:white;
+}
+
+.awesome-sauce {
+	font-family: 'Varela Round', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Varela Round', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size:28px;
+}
+
+
+label{
+	color: white;	
+	font-size: 20px;
+	font-family: 'Varela Round', Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+
+}
+
+
+
+body {
+    background: url('bg.jpg') center center fixed;
+}
+
+
+/*<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#newyorkcity.jpg" data-slide-to="0" class="active"></li>
+    <li data-target="#bg.jpg" data-slide-to="1"></li>
+    <li data-target="#Pittsburgh.jpg" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+*/
+
+
+/*
+#notes li {
+    position: center;
+    width: 300px;
+    min-height: 100px;
+
+
+    margin: 25px auto;
+    padding: 60px 15px 15px 15px;
+    background: #fff url('') no-repeat 4px 8px;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	/*background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+    box-shadow: 0 1px 2px #B2CCCC;
+    -webkit-transform: rotate(-.20deg); 
+    -moz-transform: rotate(-.20deg); 
+    -o-transform: rotate(-.20deg);     
+}
+
+#notes li:nth-child(even) {
+    -webkit-transform: rotate(.5deg); 
+    -moz-transform: rotate(.5deg); 
+    -o-transform: rotate(.5deg);     
+}
+
+
+#notes li p {
+    text-align: center;
+    font: normal normal normal 32px 'Reenie Beanie', Helvetica, Arial, sans-serif;
+    color: #000;
+    text-shadow: white 1px 1px 0px;
+    overflow:hidden;
+}
+
+#notes li::before {
+    content: ' ';
+    display: block;
+    position: absolute; 
+    left: 115px;
+    top: -15px;
+    width: 75px;
+    height: 25px;
+    z-index: 2;
+    background-color: rgba(243,245,228,0.5);
+    border: 2px solid rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0 0 5px #B2CCCC;
+    -moz-box-shadow: 0 0 5px #B2CCCC;
+    box-shadow: 2px 2px 2px #B2CCCC;
+    -webkit-transform: rotate(-6deg); 
+    -moz-transform: rotate(-6deg); 
+    -o-transform: rotate(-6deg); 
+}
+
+#notes li:nth-child(even)::before {
+    -webkit-transform: rotate(6deg); 
+    -moz-transform: rotate(6deg); 
+    -o-transform: rotate(6deg);
+}
+
+*/
+

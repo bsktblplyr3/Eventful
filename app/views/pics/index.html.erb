@@ -1,0 +1,24 @@
+<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&subset=latin' rel='stylesheet' type='text/css'>
+
+	<% @pics.each do |pic| %>
+	<div class="span3 text-center">
+	<ul id = "notes">
+	<li>
+		<p>
+		<%= pic.title %>
+</p>
+<p>
+		<%= pic.message %>
+</p>
+	<p>
+		<%= pic.who %>
+	</p>
+
+	<%= image_tag pic.image %>
+	</li>
+	</ul>
+
+</form><%= button_to "Let\'s Go!", pics_path, :class => "btn btn-info", :method => :get  %>
+
+	</div>
+	<% end %>
